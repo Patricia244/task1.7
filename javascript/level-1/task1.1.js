@@ -1,6 +1,4 @@
-
- 
- function multiplesof3And5(num){
+function multiplesof3And5(num){
         var sum = 0;
         for (var i = 1 ; i < num; i++){
         if(!(i % 3)|| !(i % 5)){
@@ -11,4 +9,4 @@
 }
 
 
-console.log(multiplesof3And5(1000));
+multiplesof3And5(1000);
